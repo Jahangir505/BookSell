@@ -1,0 +1,9 @@
+[29-Dec-2019 15:45:51 America/New_York] PHP Warning:  symlink(): File exists in /home/bookjdug/public_html/symlink.php on line 4
+[29-Dec-2019 15:48:49 America/New_York] PHP Warning:  symlink(): File exists in /home/bookjdug/public_html/symlink.php on line 4
+[03-Jan-2020 14:08:39 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/bookjdug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/bookjdug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/bookjdug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/bookjdug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/bookjdug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/bookjdug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build(Object(Clos in /home/bookjdug/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
